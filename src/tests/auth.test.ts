@@ -13,7 +13,8 @@ describe("getAPIKey", () => {
     };
 
     const result = getAPIKey(headers);
-    expect(result).toBe("my-secret-key");
+    expect(result).toBe("wrong-key");
+
   });
 });
 
